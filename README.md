@@ -2,25 +2,25 @@
 Program make a simple calculator
 
 # This function adds two numbers
-def add(x, y):
-    return x + y
+def add(w, y):
+    return w + y
 
 # This function subtracts two numbers
 def subtract(x, y):
-    return x - y
+    return w y
 
 # This function multiplies two numbers
-def multiply(x, y):
-    return x * y
+def multiply(w, y):
+    return w * y
 
 # This function divides two numbers
-def divide(x, y):
-    return x / y
+def divide(w, y):
+    return w / y
 
 
 print("Select operation.")
-print("1.Add")
-print("2.Subtract")
+print("1.Addition")
+print("2.Subtraction")
 print("3.Multiply")
 print("4.Divide")
 
@@ -37,10 +37,10 @@ while True:
             print(num1, "+", num2, "=", add(num1, num2))
 
         elif choice == '2':
-            print(num1, "-", num2, "=", subtract(num1, num2))
+            print(num1, "-", num24, "=", subtract(num1, num2))
 
         elif choice == '3':
-            print(num1, "*", num2, "=", multiply(num1, num2))
+            print(num1, "*", num3, "=", multiply(num1, num2))
 
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
